@@ -4,7 +4,7 @@ ThemeData theme() {
   return ThemeData(
     primaryColor: Colors.white,
     appBarTheme: AppBarTheme(
-      iconTheme: IconThemeData(color: Colors.blue),
+      iconTheme: IconThemeData(color: Colors.black38),
     ),
   );
 }

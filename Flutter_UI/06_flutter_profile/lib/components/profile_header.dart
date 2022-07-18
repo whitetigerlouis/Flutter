@@ -13,7 +13,7 @@ class ProfileHeader extends StatelessWidget {
     );
   }
 
-  Widget _buildHeaderAvatar(){
+  Widget _buildHeaderAvatar() {
     return SizedBox(
       width: 100,
       height: 100,
@@ -23,7 +23,7 @@ class ProfileHeader extends StatelessWidget {
     );
   }
 
-  Widget _buildHeaderProfile(){
+  Widget _buildHeaderProfile() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [

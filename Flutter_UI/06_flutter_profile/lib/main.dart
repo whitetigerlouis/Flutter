@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: theme(),
       home: ProfilePage(),
     );
@@ -41,8 +42,11 @@ class ProfilePage extends StatelessWidget {
     );
   }
 
-  AppBar _buildProfileAppBar(){
-    return AppBar();
+  AppBar _buildProfileAppBar() {
+    return AppBar(
+      leading: Icon(Icons.arrow_back_ios),
+      title: Text("Profile"),
+      centerTitle: true,
+    );
   }
 }
-
